@@ -1,0 +1,76 @@
+.app_cointiner{
+    background: #f5b70A;
+    border-radius: 10px;
+}
+.app_img{
+    margin-bottom: -100px;
+}
+.app_contennt h5{
+    color: #fff;
+}
+.app_contennt h2{
+    color: #0a071a;
+    font-weight: 600;
+}
+.app_contennt{
+    padding-top: 50px;
+}
+.app_contennt p{
+    color: #fff;
+}
+.btn_apple{
+    background: #0a071a;
+    border: none;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+.btn_google{
+    background: #fff;
+    color: #0a071a;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+.btn_google i{
+    color: #0a071a;
+}
+.btn_apple:hover a{
+    color: #fff;
+}
+.btn_google:hover a{
+    color: #0a071a;
+}
+@media only screen and (max-width:992px){
+    .app_img img{
+        width: 100%;
+    }
+    .app_contennt h5{
+        font-size: 1rem;
+    }
+    .app_contennt h2{
+        font-size: 1.5rem;
+    }
+    .app_contennt p{
+        font-size: 0.7rem;
+        line-height: 25px;
+    }
+
+    .btn_apple, .btn_google{
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+
+    .app_contennt{
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width:768px){
+    .app_contennt{
+        padding: 30px;
+    }
+    .app_img{
+        margin-bottom: 0;
+    }
+
+}
